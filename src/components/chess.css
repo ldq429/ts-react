@@ -1,0 +1,23 @@
+.item {
+   width: 80px;
+   height:80px;
+   outline: 2px solid #ccc;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.item > div {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+}
+
+.red {
+   background-image: radial-gradient(white,red);
+}
+
+.black {
+   background-image: radial-gradient(white,black);
+}
